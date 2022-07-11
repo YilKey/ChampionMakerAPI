@@ -1,0 +1,5 @@
+{"level":"info","message":"info","service":"user-service","timestamp":"2021-12-04T22:39:28.173Z"}
+{"level":"warn","message":"warn","service":"user-service","timestamp":"2021-12-04T22:39:28.176Z"}
+{"level":"error","message":"error","service":"user-service","timestamp":"2021-12-04T22:39:28.176Z"}{"error":{"code":"ER_USER_LIMIT_REACHED","errno":1226,"sql":"select 1+1 as result","sqlMessage":"User 'freedb_ChampionMakerAPIAdmin' has exceeded the 'max_questions' resource (current value: 300)","sqlState":"42000"},"level":"error","message":"select 1+1 as result - User 'freedb_ChampionMakerAPIAdmin' has exceeded the 'max_questions' resource (current value: 300)","service":"user-service","timestamp":"2022-07-11T17:00:12.242Z"}
+{"level":"info","message":"✅ Data layer initialized","service":"user-service","timestamp":"2022-07-11T17:01:24.789Z"}
+{"level":"info","message":"👂 Server listening on http://localhost:9000","service":"user-service","timestamp":"2022-07-11T17:01:24.905Z"}
