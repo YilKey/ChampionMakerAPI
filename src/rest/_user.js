@@ -24,8 +24,6 @@ const passwordComplexity = require("joi-password-complexity");
  *   get:
  *     tags:
  *     - Users
- *     security:
- *       - bearerAuth: []
  *     summary: Get all users (paginated)
  *     description: Only admins can ask for all users at once.
  *     parameters:

@@ -6,9 +6,9 @@ const logger = require("../logger");
 const log = logger;
 
 //HULPMethodes
-const makeExposedUser = ({ id, name, email, roles }) => ({
+const makeExposedUser = ({ id, userName, email, roles }) => ({
   id,
-  name,
+  name: userName,
   email,
   roles,
 });
