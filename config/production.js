@@ -5,7 +5,7 @@ module.exports = {
   },
   cors: {
     origins: ["http://localhost:3000",
-             "https://YilKey.github.io],
+             "https://kerem-championmakerfront.herokuapp.com"],
     maxAge: 3 * 60 * 60,
   },
   database: {
