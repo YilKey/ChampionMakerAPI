@@ -5,7 +5,7 @@ module.exports = {
   },
   cors: {
     origins: ["http://localhost:3000",
-             "https://yilkey.github.io/"],
+             "https://yilkey.github.io/ChampionMakerFront"],
     maxAge: 3 * 60 * 60,
   },
   database: {
